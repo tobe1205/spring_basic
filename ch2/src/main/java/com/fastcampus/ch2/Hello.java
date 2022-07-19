@@ -14,10 +14,11 @@ public class Hello {
 	private void main() { //인스턴스 메서드 - iv, cv를 둘다 사용가능
 		System.out.println("Hello - private");
 		System.out.println(cv); //ok
+		//static 메서드일때는 iv 호출 x 
 //		System.out.println(iv); //ok
 	}
 
-	public static void main2() { //static 메서드 - cv만 사용가능
+	public static void main2() { //static메서드 - cv만 사용가능
 		System.out.println(cv); //가능
 //		System.out.println(iv); //에러
 	}
